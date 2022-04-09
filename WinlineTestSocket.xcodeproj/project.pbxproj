@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D090A0227FDD44F00E893A2 /* Model_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D090A0127FDD44F00E893A2 /* Model_4.swift */; };
+		2D269EB427F74C0100D3003B /* Model_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269EB327F74C0100D3003B /* Model_16.swift */; };
+		2D8A74F027FC2851008FCFFA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A74EF27FC2851008FCFFA /* Data.swift */; };
+		2DA3A10027FB0BB4002F3C9E /* Model_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA3A0FF27FB0BB4002F3C9E /* Model_3.swift */; };
 		2DD994CE27F6DC9F00120F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD994CD27F6DC9F00120F33 /* AppDelegate.swift */; };
 		2DD994D027F6DC9F00120F33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD994CF27F6DC9F00120F33 /* SceneDelegate.swift */; };
 		2DD994D227F6DC9F00120F33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD994D127F6DC9F00120F33 /* ViewController.swift */; };
-		2DD994D527F6DC9F00120F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD994D327F6DC9F00120F33 /* Main.storyboard */; };
 		2DD994D727F6DCA000120F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD994D627F6DCA000120F33 /* Assets.xcassets */; };
 		2DD994DA27F6DCA000120F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD994D827F6DCA000120F33 /* LaunchScreen.storyboard */; };
+		2DD994E327F71C2D00120F33 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD994E227F71C2D00120F33 /* UIImage.swift */; };
+		2DD994E727F7201200120F33 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD994E627F7201200120F33 /* FirstViewController.swift */; };
+		2DD994E927F7204F00120F33 /* FirstViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD994E827F7204F00120F33 /* FirstViewPresenter.swift */; };
+		2DD994EB27F720A200120F33 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD994EA27F720A200120F33 /* SecondViewController.swift */; };
+		2DD994ED27F720DE00120F33 /* SecondViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD994EC27F720DE00120F33 /* SecondViewPresenter.swift */; };
+		2DFF8E5627F73E5D00F6AE94 /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF8E5527F73E5D00F6AE94 /* ViewPresenter.swift */; };
+		C9825D76D6653F63BE444816 /* Pods_WinlineTestSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864087F9490EF2A9C66FD294 /* Pods_WinlineTestSocket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27C8426B5B32BBF255D97FAF /* Pods-WinlineTestSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinlineTestSocket.debug.xcconfig"; path = "Target Support Files/Pods-WinlineTestSocket/Pods-WinlineTestSocket.debug.xcconfig"; sourceTree = "<group>"; };
+		2D090A0127FDD44F00E893A2 /* Model_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_4.swift; sourceTree = "<group>"; };
+		2D269EB327F74C0100D3003B /* Model_16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_16.swift; sourceTree = "<group>"; };
+		2D8A74EF27FC2851008FCFFA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2DA3A0FF27FB0BB4002F3C9E /* Model_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_3.swift; sourceTree = "<group>"; };
 		2DD994CA27F6DC9F00120F33 /* WinlineTestSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinlineTestSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD994CD27F6DC9F00120F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD994CF27F6DC9F00120F33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DD994D127F6DC9F00120F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DD994D427F6DC9F00120F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD994D627F6DCA000120F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD994D927F6DCA000120F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DD994DB27F6DCA000120F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD994E227F71C2D00120F33 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		2DD994E627F7201200120F33 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2DD994E827F7204F00120F33 /* FirstViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewPresenter.swift; sourceTree = "<group>"; };
+		2DD994EA27F720A200120F33 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2DD994EC27F720DE00120F33 /* SecondViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewPresenter.swift; sourceTree = "<group>"; };
+		2DFF8E5527F73E5D00F6AE94 /* ViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
+		543D18150AD6D24755275126 /* Pods-WinlineTestSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinlineTestSocket.release.xcconfig"; path = "Target Support Files/Pods-WinlineTestSocket/Pods-WinlineTestSocket.release.xcconfig"; sourceTree = "<group>"; };
+		864087F9490EF2A9C66FD294 /* Pods_WinlineTestSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinlineTestSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9825D76D6653F63BE444816 /* Pods_WinlineTestSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D269EB227F74BC900D3003B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D269EB327F74C0100D3003B /* Model_16.swift */,
+				2DA3A0FF27FB0BB4002F3C9E /* Model_3.swift */,
+				2D090A0127FDD44F00E893A2 /* Model_4.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2DD994C127F6DC9E00120F33 = {
 			isa = PBXGroup;
 			children = (
 				2DD994CC27F6DC9F00120F33 /* WinlineTestSocket */,
 				2DD994CB27F6DC9F00120F33 /* Products */,
+				CE0AEEFB04316DDFA9789D0A /* Pods */,
+				C4D6B5E3B93405BEC207AF31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,63 @@
 		2DD994CC27F6DC9F00120F33 /* WinlineTestSocket */ = {
 			isa = PBXGroup;
 			children = (
+				2D269EB227F74BC900D3003B /* Models */,
+				2DD994E527F71FBE00120F33 /* SecondView */,
+				2DD994E427F71F9C00120F33 /* FirstView */,
+				2DD994E127F71C0100120F33 /* Extensions */,
 				2DD994CD27F6DC9F00120F33 /* AppDelegate.swift */,
 				2DD994CF27F6DC9F00120F33 /* SceneDelegate.swift */,
 				2DD994D127F6DC9F00120F33 /* ViewController.swift */,
-				2DD994D327F6DC9F00120F33 /* Main.storyboard */,
+				2DFF8E5527F73E5D00F6AE94 /* ViewPresenter.swift */,
 				2DD994D627F6DCA000120F33 /* Assets.xcassets */,
 				2DD994D827F6DCA000120F33 /* LaunchScreen.storyboard */,
 				2DD994DB27F6DCA000120F33 /* Info.plist */,
 			);
 			path = WinlineTestSocket;
+			sourceTree = "<group>";
+		};
+		2DD994E127F71C0100120F33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DD994E227F71C2D00120F33 /* UIImage.swift */,
+				2D8A74EF27FC2851008FCFFA /* Data.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DD994E427F71F9C00120F33 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				2DD994E627F7201200120F33 /* FirstViewController.swift */,
+				2DD994E827F7204F00120F33 /* FirstViewPresenter.swift */,
+			);
+			path = FirstView;
+			sourceTree = "<group>";
+		};
+		2DD994E527F71FBE00120F33 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				2DD994EA27F720A200120F33 /* SecondViewController.swift */,
+				2DD994EC27F720DE00120F33 /* SecondViewPresenter.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		C4D6B5E3B93405BEC207AF31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864087F9490EF2A9C66FD294 /* Pods_WinlineTestSocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0AEEFB04316DDFA9789D0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27C8426B5B32BBF255D97FAF /* Pods-WinlineTestSocket.debug.xcconfig */,
+				543D18150AD6D24755275126 /* Pods-WinlineTestSocket.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DD994DE27F6DCA000120F33 /* Build configuration list for PBXNativeTarget "WinlineTestSocket" */;
 			buildPhases = (
+				75C80DA6B3CA9E77E4A3B268 /* [CP] Check Pods Manifest.lock */,
 				2DD994C627F6DC9F00120F33 /* Sources */,
 				2DD994C727F6DC9F00120F33 /* Frameworks */,
 				2DD994C827F6DC9F00120F33 /* Resources */,
+				79BAB936908737ECFCEBABA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +181,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = StLiga;
 				TargetAttributes = {
 					2DD994C927F6DC9F00120F33 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -127,19 +213,70 @@
 			files = (
 				2DD994DA27F6DCA000120F33 /* LaunchScreen.storyboard in Resources */,
 				2DD994D727F6DCA000120F33 /* Assets.xcassets in Resources */,
-				2DD994D527F6DC9F00120F33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75C80DA6B3CA9E77E4A3B268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WinlineTestSocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BAB936908737ECFCEBABA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WinlineTestSocket/Pods-WinlineTestSocket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WinlineTestSocket/Pods-WinlineTestSocket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WinlineTestSocket/Pods-WinlineTestSocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2DD994C627F6DC9F00120F33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFF8E5627F73E5D00F6AE94 /* ViewPresenter.swift in Sources */,
+				2DD994E727F7201200120F33 /* FirstViewController.swift in Sources */,
 				2DD994D227F6DC9F00120F33 /* ViewController.swift in Sources */,
+				2DD994E327F71C2D00120F33 /* UIImage.swift in Sources */,
+				2DD994ED27F720DE00120F33 /* SecondViewPresenter.swift in Sources */,
 				2DD994CE27F6DC9F00120F33 /* AppDelegate.swift in Sources */,
+				2DD994EB27F720A200120F33 /* SecondViewController.swift in Sources */,
+				2D8A74F027FC2851008FCFFA /* Data.swift in Sources */,
+				2DD994E927F7204F00120F33 /* FirstViewPresenter.swift in Sources */,
+				2DA3A10027FB0BB4002F3C9E /* Model_3.swift in Sources */,
+				2D090A0227FDD44F00E893A2 /* Model_4.swift in Sources */,
+				2D269EB427F74C0100D3003B /* Model_16.swift in Sources */,
 				2DD994D027F6DC9F00120F33 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +284,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2DD994D327F6DC9F00120F33 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DD994D427F6DC9F00120F33 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DD994D827F6DCA000120F33 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +413,7 @@
 		};
 		2DD994DF27F6DCA000120F33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C8426B5B32BBF255D97FAF /* Pods-WinlineTestSocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,9 +423,10 @@
 				INFOPLIST_FILE = WinlineTestSocket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,12 +436,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2DD994E027F6DCA000120F33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543D18150AD6D24755275126 /* Pods-WinlineTestSocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +452,10 @@
 				INFOPLIST_FILE = WinlineTestSocket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
